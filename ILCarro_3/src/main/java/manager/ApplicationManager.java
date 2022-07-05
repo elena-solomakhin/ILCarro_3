@@ -1,7 +1,10 @@
 package manager;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
@@ -23,4 +26,11 @@ public class ApplicationManager {
     }
 
 
+    public String getMessage() {
+        //wait conteiner is appeared
+        new WebDriverWait(wd,Duration.ofSeconds(5)).until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("div.dialog-container"))));
+        String message =wd.findElement(By.cssSelector("div.dialog-container h1")).getText();
+
+        return null;
+    }
 }

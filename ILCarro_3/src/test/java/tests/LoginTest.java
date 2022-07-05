@@ -15,7 +15,7 @@ public void preCondition(){
 
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("noam@gmail.com","QQqq1234$");
-        app.getHelperUser().submitLogin();
+        app.getHelperUser().submit();
     }
 
 
@@ -24,7 +24,7 @@ public void preCondition(){
 
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("noagmail.com", "45$");
-        app.getHelperUser().submitLogin();
+        app.getHelperUser().submit();
         // 6.Assert ( is login unsuccessful?)   logout present? NOT
 
     }

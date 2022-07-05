@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-28T09:31:49" hostname="Elenas-MacBook-Air.local" time="0.662">
-  <properties/>
-  <testcase name="loginNegativeTestsWrongEmail" classname="tests.LoginTest" time="0.662"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
