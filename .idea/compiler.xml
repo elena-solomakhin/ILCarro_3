@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="ILCarro_3.ILCarro_3.main" target="11" />
-      <module name="ILCarro_3.ILCarro_3.test" target="11" />
+      <module name="ILCarro_3.ILCarro_3.main~1" target="11" />
+      <module name="ILCarro_3.ILCarro_3.test~1" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
