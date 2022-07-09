@@ -1,5 +1,6 @@
 package tests;
 
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -28,5 +29,8 @@ public void preCondition(){
         // 6.Assert ( is login unsuccessful?)   logout present? NOT
 
     }
-
+@AfterMethod
+public void postCondition() {
+app.getHelperUser().clickOk();
+}
 }

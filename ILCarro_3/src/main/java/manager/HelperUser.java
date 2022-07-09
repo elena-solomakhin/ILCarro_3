@@ -7,6 +7,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 import java.util.List;
@@ -63,7 +65,37 @@ public class HelperUser extends HelperBase {
 
     }
 
+    public String getMessage() {
+        //pause
+pause(2000);
+        //wait conteiner is appeared
+        new WebDriverWait(wd,Duration.ofSeconds(5))
+                .until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("div.dialog-container"))));
+
+        String  message = wd.findElement(By.cssSelector("div.dialog-container h1")).getText();
+        return message;
+    }
     public void clickOk() {
-        click(By.xpath("//button[text()='Ok']"));
+        if(isElementPresent(By.xpath("//button[text()='Ok']"))) {
+            click(By.xpath("//button[text()='Ok']"));
+        } }
+
+    public boolean isErrorPasswordFormatDisplayed() {
+        Boolean lastChild = new WebDriverWait(wd, Duration.ofSeconds(5)).until(ExpectedConditions
+                .textToBePresentInElement(wd.findElement(By.cssSelector("div.error div:last-child")), "Password must contain 1 uppercase letter, 1 lowercase letter and one number"));
+
+        return lastChild;
+    }
+
+    public boolean isErrorPasswordSizeDisplayed() {
+    return  new WebDriverWait(wd, Duration.ofSeconds(5)).until(ExpectedConditions
+            .textToBePresentInElement(wd.findElement(By.cssSelector("div.error div:first-child")), "Password must contain minimum 8 symbols"));
+    }
+
+    public boolean isYallaButtonNotActive() {
+        boolean disabled = isElementPresent(By.cssSelector("button[disabled]"));
+
+        boolean enabled = wd.findElement(By.cssSelector("[type='submit']")).isEnabled();
+        return disabled&&!enabled;
     }
 }
