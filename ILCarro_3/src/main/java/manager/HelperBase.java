@@ -1,8 +1,6 @@
 package manager;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -26,6 +24,8 @@ public class HelperBase {
 
     }
     public void submit() {
+        new WebDriverWait(wd,Duration.ofSeconds(4))
+                .until(ExpectedConditions.elementToBeClickable(wd.findElement(By.cssSelector("button[type='submit']"))));
         wd.findElement(By.cssSelector("button[type='submit']")).click();
 
     }
@@ -41,4 +41,21 @@ public class HelperBase {
         return wd.findElements(locator).size()>0;
 
     }
+    public String getMessage() {
+        //pause
+        pause(2000);
+        //wait conteiner is appeared
+        new WebDriverWait(wd,Duration.ofSeconds(5))
+                .until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("div.dialog-container"))));
+
+        String  message = wd.findElement(By.cssSelector("div.dialog-container h1")).getText();
+        return message;
+    }
+    public void jsexemple(){
+        JavascriptExecutor js = (JavascriptExecutor) wd;
+        js.executeScript("document.querySelector('#name').value='lola';");
+        js.executeScript("document.querySelector('#terms-of-use').checked=true;");
+        js.executeScript("document.querySelector('button[type=\"submit\"]'.click;");
+    }
 }
+
