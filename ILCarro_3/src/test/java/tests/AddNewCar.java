@@ -14,7 +14,9 @@ public class AddNewCar extends BaseTest{
     public void preCondition(){
 if (!app.getHelperUser().isLogged()){
     app.getHelperUser().login(new User().setEmail("noa@gmail.com").setPassword("Nnoa12345$"));
+logger.info("user");
 }
+
     }
     @Test
      public void addNewCarSuccess(){
@@ -39,6 +41,7 @@ if (!app.getHelperUser().isLogged()){
                 .features("type of features")
                 .about("very nice car")
                 .build();//create lombog
+        logger.info("Contact is --->"+ car.toString());
         app.car().openCarForm();
         app.car().fillCarForm(car);
       app.car().attachPhoto("/Users/elenasolomakhina/Study/AutomatQA34/Progects/ILCarro_3/ILCarro_3/auto1.jpeg");

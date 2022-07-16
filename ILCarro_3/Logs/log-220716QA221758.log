@@ -1,0 +1,4 @@
+22:18:09.142  INFO  manager.ApplicationManager - All tests run in Chrome Brouser
+22:18:11.313  INFO  manager.ApplicationManager - Current URL https://ilcarro-1578153671498.web.app/search
+22:18:11.407  INFO  tests.BaseTest - Start methodLoginASuccess
+22:18:22.709  INFO  tests.BaseTest - Start methodloginNegativeTestsWrongEmail

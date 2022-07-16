@@ -32,6 +32,7 @@ public class HelperUser extends HelperBase {
     public void fillLoginForm(User user){
         type(By.id("email"),user.getEmail());
         type(By.id("password"),user.getPassword());
+        logger.info("Login done success");
     }
     public boolean isLogged(){
         List<WebElement> list =wd.findElements(By.xpath("//a[text()=' Logout ']"));
