@@ -1,11 +1,14 @@
 package manager;
 
+import com.google.common.io.Files;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
 
 public class HelperBase {
@@ -59,6 +62,15 @@ public class HelperBase {
         js.executeScript("document.querySelector('#name').value='lola';");
         js.executeScript("document.querySelector('#terms-of-use').checked=true;");
         js.executeScript("document.querySelector('button[type=\"submit\"]'.click;");
+    }
+    public void takeScreenShots(String pathToFile){
+       File tmp= ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
+       File screen= new File(pathToFile);
+        try {
+            Files.copy(tmp,screen);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
 

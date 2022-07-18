@@ -1,0 +1,5 @@
+18:54:47.120  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+18:54:49.213  INFO  manager.ApplicationManager - Current URL https://ilcarro-1578153671498.web.app/search
+18:54:49.290  INFO  tests.BaseTest - Start test with name --->LoginASuccess
+18:54:59.347  INFO  tests.BaseTest - Test start with email :'noam@gmail.com'and password 'QQqq1234$'
+18:55:02.450  INFO  tests.BaseTest - Test passed

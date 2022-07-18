@@ -1,0 +1,7 @@
+19:05:11.913  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+19:05:16.237  INFO  manager.ApplicationManager - Current URL https://ilcarro-1578153671498.web.app/search
+19:05:16.320  INFO  tests.BaseTest - Start test with name --->LoginASuccess
+19:05:16.323  INFO  manager.MyListener - WD Before find by --> By.xpath: //a[text()=' Logout ']
+19:05:26.386  INFO  tests.BaseTest - Test start with email :'noam@gmail.com'and password 'QQqq1234$'
+19:05:29.445  INFO  tests.BaseTest - Test passed
+19:05:29.451  INFO  manager.MyListener - WD Before find by --> By.xpath: //button[text()='Ok']

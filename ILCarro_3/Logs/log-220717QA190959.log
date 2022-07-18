@@ -1,0 +1,8 @@
+19:10:06.794  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+19:10:10.380  INFO  manager.ApplicationManager - Current URL https://ilcarro-1578153671498.web.app/search
+19:10:10.457  INFO  tests.BaseTest - Start test with name --->LoginASuccess
+19:10:10.461  INFO  manager.MyListener - WD Before find by --> By.xpath: //a[text()=' Logout ']
+19:10:20.507  INFO  tests.BaseTest - Test start with email :'noam@gmail.com'and password 'QQqq1234$'
+19:10:30.614  INFO  manager.MyListener - The name of method with error--->click
+19:10:30.616  INFO  manager.MyListener - we have a problem-->java.lang.reflect.InvocationTargetException
+19:10:30.624  INFO  manager.MyListener - WD Before find by --> By.xpath: //button[text()='Ok']
