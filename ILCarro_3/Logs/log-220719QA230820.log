@@ -1,0 +1,6 @@
+23:08:26.932  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+23:08:34.862  INFO  manager.ApplicationManager - Current URL https://ilcarro-1578153671498.web.app/search
+23:08:34.945  INFO  tests.BaseTest - Start test with name --->searchCurrentYear
+23:08:34.948  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+23:08:35.307  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+23:08:36.399  INFO  manager.MyListener - WebDriver start find element -->By.id: dates

@@ -27,7 +27,7 @@ public class HelperUser extends HelperBase {
     public void fillLoginForm(String email,String password){
         type(By.cssSelector("#email"),email);
         takeScreenShots("/Users/elenasolomakhina/Study/AutomatQA34/Progects/ILCarro_3/ILCarro_3/src/test/ScreenShots/screen-1.png");
-        type(By.cssSelector("d"),password);
+        type(By.cssSelector("#password"),password);
 
     }
     public void fillLoginForm(User user){
