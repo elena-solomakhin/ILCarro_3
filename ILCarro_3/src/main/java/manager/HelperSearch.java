@@ -29,8 +29,7 @@ public class HelperSearch extends HelperBase{
 
     private void typeCity(String city) {
         type(By.id("city"),city);
-        click(By.cssSelector(".pac-itemm"));
-        //change
+        click(By.cssSelector(".pac-item"));
         pause(500);
     }
     public void searchCurrentYear(String city, String dataFrom, String dataTo) {
