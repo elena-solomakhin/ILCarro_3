@@ -1,0 +1,20 @@
+20:34:13.904  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+20:34:18.310  INFO  manager.ApplicationManager - Current URL https://ilcarro-1578153671498.web.app/search
+20:34:18.394  INFO  tests.BaseTest - Start test with name --->searchAnyPeriod
+20:34:18.397  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+20:34:18.764  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+20:34:19.889  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+20:34:20.179  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+20:34:20.319  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[.=' 10 ']
+20:34:20.428  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+20:34:20.753  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+20:34:21.044  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+20:34:21.997  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+20:34:22.345  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+20:34:22.453  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+20:34:22.751  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+20:34:22.868  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[.=' 10 ']
+20:34:22.961  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+20:34:23.023  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+20:34:23.250  INFO  manager.MyListener - New Before find by --> By.cssSelector: .car-img-container.ng-star-inserted
+20:34:24.175  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo

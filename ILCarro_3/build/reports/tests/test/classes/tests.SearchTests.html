@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">1</div>
+<div class="counter">0</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">1.919s</div>
+<div class="counter">6.658s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox failures" id="successRate">
-<div class="percent">0%</div>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,76 +61,13 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Failed tests</a>
+<a href="#tab0">Tests</a>
 </li>
 <li>
-<a href="#tab1">Tests</a>
-</li>
-<li>
-<a href="#tab2">Standard output</a>
+<a href="#tab1">Standard output</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
-<h2>Failed tests</h2>
-<div class="test">
-<a name="searchCurrentYear"></a>
-<h3 class="failures">searchCurrentYear</h3>
-<span class="code">
-<pre>java.lang.NullPointerException
-	at manager.HelperSearch.selectPeriodCurrentYear(HelperSearch.java:45)
-	at manager.HelperSearch.searchCurrentYear(HelperSearch.java:37)
-	at tests.SearchTests.searchCurrentYear(SearchTests.java:15)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
-	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at com.sun.proxy.$Proxy2.stop(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
-	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
-	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-</pre>
-</span>
-</div>
-</div>
-<div id="tab1" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -141,19 +78,35 @@
 </tr>
 </thead>
 <tr>
-<td class="failures">searchCurrentYear</td>
-<td class="failures">1.919s</td>
-<td class="failures">failed</td>
+<td class="success">searchAnyPeriod</td>
+<td class="success">6.658s</td>
+<td class="success">passed</td>
 </tr>
 </table>
 </div>
-<div id="tab2" class="tab">
+<div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>23:10:55.744  INFO  tests.BaseTest - Start test with name ---&gt;searchCurrentYear
-23:10:55.747  INFO  manager.MyListener - WebDriver start find element --&gt;By.id: city
-23:10:56.127  INFO  manager.MyListener - WebDriver start find element --&gt;By.cssSelector: .pac-item
-23:10:57.320  INFO  manager.MyListener - WebDriver start find element --&gt;By.id: dates
+<pre>21:05:15.887  INFO  tests.BaseTest - Start test with name ---&gt;searchAnyPeriod
+21:05:15.890  INFO  manager.MyListener - WebDriver start find element --&gt;By.id: city
+21:05:16.242  INFO  manager.MyListener - WebDriver start find element --&gt;By.cssSelector: .pac-item
+21:05:17.317  INFO  manager.MyListener - WebDriver start find element --&gt;By.id: dates
+21:05:17.723  INFO  manager.MyListener - WebDriver start find element --&gt;By.xpath: //button[@aria-label='Next month']
+21:05:17.877  INFO  manager.MyListener - WebDriver start find element --&gt;By.xpath: //button[@aria-label='Next month']
+21:05:17.946  INFO  manager.MyListener - WebDriver start find element --&gt;By.xpath: //button[@aria-label='Next month']
+21:05:18.026  INFO  manager.MyListener - WebDriver start find element --&gt;By.xpath: //button[@aria-label='Next month']
+21:05:18.150  INFO  manager.MyListener - WebDriver start find element --&gt;By.xpath: //button[@aria-label='Next month']
+21:05:18.327  INFO  manager.MyListener - WebDriver start find element --&gt;By.xpath: //button[@aria-label='Next month']
+21:05:18.613  INFO  manager.MyListener - WebDriver start find element --&gt;By.xpath: //div[text()=' 10 ']
+21:05:20.231  INFO  manager.MyListener - WebDriver start find element --&gt;By.xpath: //button[@aria-label='Next month']
+21:05:20.676  INFO  manager.MyListener - WebDriver start find element --&gt;By.xpath: //button[@aria-label='Next month']
+21:05:20.744  INFO  manager.MyListener - WebDriver start find element --&gt;By.xpath: //button[@aria-label='Next month']
+21:05:20.790  INFO  manager.MyListener - WebDriver start find element --&gt;By.xpath: //button[@aria-label='Next month']
+21:05:20.897  INFO  manager.MyListener - WebDriver start find element --&gt;By.xpath: //div[text()=' 25 ']
+21:05:21.037  INFO  manager.MyListener - WebDriver start find element --&gt;By.cssSelector: button[type='submit']
+21:05:21.097  INFO  manager.MyListener - WebDriver start find element --&gt;By.cssSelector: button[type='submit']
+21:05:21.726  INFO  manager.MyListener - New Before find by --&gt; By.cssSelector: .car-img-container.ng-star-inserted
+21:05:22.552  INFO  manager.MyListener - WebDriver start find element --&gt;By.cssSelector: .logo
 </pre>
 </span>
 </div>
@@ -165,7 +118,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.4</a> at 19 Jul 2022, 23:10:58</p>
+<a href="http://www.gradle.org">Gradle 7.4</a> at 20 Jul 2022, 21:05:23</p>
 </div>
 </div>
 </body>
