@@ -1,0 +1,48 @@
+14:22:11.176  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+14:22:15.581  INFO  manager.ApplicationManager - Current URL https://ilcarro-1578153671498.web.app/search
+14:22:15.669  INFO  tests.BaseTest - Start test with name --->searchAnyPeriod
+14:22:15.671  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+14:22:16.016  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+14:22:17.099  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+14:22:17.415  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+14:22:17.615  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+14:22:17.686  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+14:22:17.770  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+14:22:17.885  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+14:22:18.051  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+14:22:18.368  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 10 ']
+14:22:19.799  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+14:22:20.144  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+14:22:20.277  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+14:22:20.364  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+14:22:20.525  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 25 ']
+14:22:20.624  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+14:22:20.689  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+14:22:21.293  INFO  manager.MyListener - New Before find by --> By.cssSelector: .car-img-container.ng-star-inserted
+14:22:22.062  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+14:22:22.486  INFO  tests.BaseTest - Start test with name --->searchCurrentMonth
+14:22:22.488  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+14:22:22.558  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+14:22:22.618  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+14:22:22.718  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+14:22:23.910  INFO  manager.MyListener - The name of method with error -->click
+14:22:23.934  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input _ngcontent-tph-c72="" formcontrolname="city" id="city" placeholder="" type="text" class="ng-untouched ng-pristine ng-valid pac-target-input" autocomplete="off"> is not clickable at point (284, 255). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'Elenas-MacBook-Air.local', ip: 'fe80:0:0:0:42a:9cab:327d:2422%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e5df59c420a3322e8252dca8de5af394, clickElement {id=9ce7942d-86b8-47c1-8ec0-715455f6e8e4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/ml/_zfjgb895b7...}, goog:chromeOptions: {debuggerAddress: localhost:64580}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:64580/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (e5df59c420a3322e8252dca8de5af394)] -> id: city]
+Session ID: e5df59c420a3322e8252dca8de5af394
+14:22:23.942  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+14:22:25.060  INFO  manager.MyListener - The name of method with error -->click
+14:22:25.073  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-tph-c25="" href="/" class="logo">...</a> is not clickable at point (236, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'Elenas-MacBook-Air.local', ip: 'fe80:0:0:0:42a:9cab:327d:2422%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e5df59c420a3322e8252dca8de5af394, clickElement {id=e05f3618-2ee0-4dbe-b154-3efa8e0cb431}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/ml/_zfjgb895b7...}, goog:chromeOptions: {debuggerAddress: localhost:64580}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:64580/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (e5df59c420a3322e8252dca8de5af394)] -> css selector: .logo]
+Session ID: e5df59c420a3322e8252dca8de5af394

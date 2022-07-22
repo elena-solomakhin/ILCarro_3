@@ -1,0 +1,45 @@
+14:25:16.710  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+14:25:21.171  INFO  manager.ApplicationManager - Current URL https://ilcarro-1578153671498.web.app/search
+14:25:21.250  INFO  tests.BaseTest - Start test with name --->searchAnyPeriod
+14:25:21.253  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+14:25:21.605  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+14:25:22.710  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+14:25:23.007  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+14:25:23.175  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+14:25:23.245  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+14:25:23.326  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+14:25:23.444  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+14:25:23.606  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+14:25:23.833  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 10 ']
+14:25:25.468  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+14:25:25.759  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+14:25:25.826  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+14:25:25.876  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+14:25:25.953  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 25 ']
+14:25:26.103  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+14:25:26.165  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+14:25:26.770  INFO  manager.MyListener - New Before find by --> By.cssSelector: .car-img-container.ng-star-inserted
+14:25:27.492  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+14:25:27.952  INFO  tests.BaseTest - Start test with name --->searchCurrentMonth
+14:25:27.954  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+14:25:28.026  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+14:25:28.096  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+14:25:28.291  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+14:25:29.139  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 27 ']
+14:25:37.544  INFO  manager.MyListener - The name of method with error -->findElement
+14:25:37.575  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //div[text()=' 27 ']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'Elenas-MacBook-Air.local', ip: 'fe80:0:0:0:42a:9cab:327d:2422%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '11.0.15.1'
+Driver info: driver.version: unknown
+14:25:37.584  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+14:25:37.626  INFO  manager.MyListener - The name of method with error -->findElement
+14:25:37.631  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'Elenas-MacBook-Air.local', ip: 'fe80:0:0:0:42a:9cab:327d:2422%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed4ea89630805b480e886656804648be, findElement {using=css selector, value=.logo}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/ml/_zfjgb895b7...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:65424/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ed4ea89630805b480e886656804648be

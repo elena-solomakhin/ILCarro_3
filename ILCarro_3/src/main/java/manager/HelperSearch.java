@@ -1,10 +1,14 @@
 package manager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+
+
 
 public class HelperSearch extends HelperBase {
     public HelperSearch(WebDriver wd) {
@@ -12,23 +16,29 @@ public class HelperSearch extends HelperBase {
     }
 
     public void searchCurrentMonth(String city, String dataFrom, String dataTo) {
+        clearDates();
         typeCity(city);
-        selectPeriodCurrentMonth(dataFrom, dataTo);
-
+        selectPeriodCurrentMonth(dataFrom,dataTo);
     }
-
     private void selectPeriodCurrentMonth(String dataFrom, String dataTo) {
-        //7/25/2025
-        //click fill dates
+        //     "7/25/2022"      "7/30/2022"
         click(By.id("dates"));
-        String[] from = dataFrom.split("/"); //[7],[25],[2022], we need index 1
-        String locator = "//div[text()=' " + from[1] + " ']";
+
+        String [] from = dataFrom.split("/"); // ["7"],["25"],["2022"  from[1] = "25"
+
+        String locator  = "//div[text()=' "+from[1]+" ']";
         click(By.xpath(locator));
-//7/31/2022
-        String[] to = dataTo.split("/");
-        String locator2 = String.format("//div[text()=' %s ']", to[1]);
+
+
+        //     "7/30/2022"
+        String [] to = dataTo.split("/"); // ["7"],["30"],["2022"]     to[1]
+
+        String locator2 = String.format("//div[text()=' %s ']",to[1]);
+
         click(By.xpath(locator2));
+
     }
+
 
     private void typeCity(String city) {
         type(By.id("city"), city);
@@ -67,7 +77,6 @@ public class HelperSearch extends HelperBase {
         String locator1 = String.format("//div[.=' %s ']", to[1]);
         click(By.xpath(locator1));
 
-
     }
 
     private void clickByNextMonth(int count) {
@@ -78,7 +87,6 @@ public class HelperSearch extends HelperBase {
 
     public boolean isListOfCarsAppeared() {
         return isElementPresent(By.cssSelector(".car-img-container.ng-star-inserted"));
-
 
     }
 
@@ -169,6 +177,14 @@ public class HelperSearch extends HelperBase {
             click(By.xpath(locator1));
 
         }
+
+    private void clearDates() {
+        wd.findElement(By.id("dates")).sendKeys(Keys.COMMAND+"a");
+        wd.findElement(By.id("dates")).sendKeys(Keys.DELETE);
+//        click(By.id("dates"));
+
+    }
+
     }
 
 

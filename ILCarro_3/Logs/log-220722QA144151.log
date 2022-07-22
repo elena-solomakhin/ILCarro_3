@@ -1,13 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.SearchTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-07-22T11:42:04" hostname="Elenas-MacBook-Air.local" time="19.641">
-  <properties/>
-  <testcase name="searchAnyPeriod" classname="tests.SearchTests" time="6.276"/>
-  <testcase name="searchCurrentMonth" classname="tests.SearchTests" time="2.646"/>
-  <testcase name="searchCurrentYear" classname="tests.SearchTests" time="3.318"/>
-  <testcase name="searchCurrentYear2" classname="tests.SearchTests" time="3.096"/>
-  <testcase name="searchCurrentYearLocalDate" classname="tests.SearchTests" time="2.794"/>
-  <testcase name="searchPeriodPast" classname="tests.SearchTests" time="0.0"/>
-  <system-out><![CDATA[14:42:04.143  INFO  tests.BaseTest - Start test with name --->searchAnyPeriod
+14:42:00.513  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+14:42:04.067  INFO  manager.ApplicationManager - Current URL https://ilcarro-1578153671498.web.app/search
+14:42:04.143  INFO  tests.BaseTest - Start test with name --->searchAnyPeriod
 14:42:04.146  INFO  manager.MyListener - WebDriver start find element -->By.id: city
 14:42:04.487  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
 14:42:05.626  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
@@ -51,7 +44,6 @@
 14:42:15.893  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
 14:42:15.937  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
 14:42:16.090  INFO  manager.MyListener - New Before find by --> By.cssSelector: .car-img-container.ng-star-inserted
-https://ilcarro-1578153671498.web.app/search/results?city=Haifa&startDate=2022-08-10%2000:00&endDate=2022-10-20%2000:00
 14:42:17.179  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
 14:42:17.431  INFO  tests.BaseTest - Start test with name --->searchCurrentYear2
 14:42:17.435  INFO  manager.MyListener - WebDriver start find element -->By.id: city
@@ -81,6 +73,3 @@ https://ilcarro-1578153671498.web.app/search/results?city=Haifa&startDate=2022-0
 14:42:23.586  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
 14:42:23.786  INFO  tests.BaseTest - Start test with name --->searchPeriodPast
 14:42:23.787  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

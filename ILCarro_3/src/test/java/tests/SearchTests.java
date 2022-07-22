@@ -25,6 +25,13 @@ public class SearchTests  extends BaseTest{
 
     }
 
+    @Test
+    public void searchCurrentYear2() {
+        app.search().searchCurrentYear("Haifa", "8/10/2022", "10/20/2022");
+        app.search().submit();
+        Assert.assertTrue(app.search().isListOfCarsAppeared());
+//        Assert.assertTrue(app.search().isPageResultAppeared());
+    }
 
     @Test
     public void searchCurrentYearLocalDate(){
