@@ -1,86 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.SearchTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-07-22T11:42:04" hostname="Elenas-MacBook-Air.local" time="19.641">
+<testsuite name="tests.SearchTests" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-07-22T19:24:18" hostname="Elenas-MacBook-Air.local" time="13.474">
   <properties/>
-  <testcase name="searchAnyPeriod" classname="tests.SearchTests" time="6.276"/>
-  <testcase name="searchCurrentMonth" classname="tests.SearchTests" time="2.646"/>
-  <testcase name="searchCurrentYear" classname="tests.SearchTests" time="3.318"/>
-  <testcase name="searchCurrentYear2" classname="tests.SearchTests" time="3.096"/>
-  <testcase name="searchCurrentYearLocalDate" classname="tests.SearchTests" time="2.794"/>
-  <testcase name="searchPeriodPast" classname="tests.SearchTests" time="0.0"/>
-  <system-out><![CDATA[14:42:04.143  INFO  tests.BaseTest - Start test with name --->searchAnyPeriod
-14:42:04.146  INFO  manager.MyListener - WebDriver start find element -->By.id: city
-14:42:04.487  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
-14:42:05.626  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
-14:42:05.909  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
-14:42:06.046  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
-14:42:06.130  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
-14:42:06.206  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
-14:42:06.313  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
-14:42:06.486  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
-14:42:06.820  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 10 ']
-14:42:08.188  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
-14:42:08.621  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
-14:42:08.701  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
-14:42:08.751  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
-14:42:08.839  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 25 ']
-14:42:09.012  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
-14:42:09.074  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
-14:42:09.660  INFO  manager.MyListener - New Before find by --> By.cssSelector: .car-img-container.ng-star-inserted
-14:42:10.426  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
-14:42:10.886  INFO  tests.BaseTest - Start test with name --->searchCurrentMonth
-14:42:10.889  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
-14:42:10.962  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
-14:42:11.018  INFO  manager.MyListener - WebDriver start find element -->By.id: city
-14:42:11.227  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
-14:42:12.008  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
-14:42:12.121  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 27 ']
-14:42:12.175  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 28 ']
-14:42:12.250  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
-14:42:12.319  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
-14:42:12.411  INFO  manager.MyListener - New Before find by --> By.cssSelector: .car-img-container.ng-star-inserted
-14:42:13.538  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
-14:42:13.854  INFO  tests.BaseTest - Start test with name --->searchCurrentYear
-14:42:13.856  INFO  manager.MyListener - WebDriver start find element -->By.id: city
-14:42:14.003  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
-14:42:15.431  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
-14:42:15.557  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
-14:42:15.615  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[.=' 10 ']
-14:42:15.689  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
-14:42:15.746  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
-14:42:15.805  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[.=' 20 ']
-14:42:15.893  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
-14:42:15.937  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
-14:42:16.090  INFO  manager.MyListener - New Before find by --> By.cssSelector: .car-img-container.ng-star-inserted
-https://ilcarro-1578153671498.web.app/search/results?city=Haifa&startDate=2022-08-10%2000:00&endDate=2022-10-20%2000:00
-14:42:17.179  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
-14:42:17.431  INFO  tests.BaseTest - Start test with name --->searchCurrentYear2
-14:42:17.435  INFO  manager.MyListener - WebDriver start find element -->By.id: city
-14:42:17.581  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
-14:42:19.023  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
-14:42:19.154  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
-14:42:19.204  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[.=' 10 ']
-14:42:19.257  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
-14:42:19.303  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
-14:42:19.349  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[.=' 20 ']
-14:42:19.404  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
-14:42:19.441  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
-14:42:19.532  INFO  manager.MyListener - New Before find by --> By.cssSelector: .car-img-container.ng-star-inserted
-14:42:20.535  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
-14:42:20.783  INFO  tests.BaseTest - Start test with name --->searchCurrentYearLocalDate
-14:42:20.785  INFO  manager.MyListener - WebDriver start find element -->By.id: city
-14:42:20.963  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
-14:42:21.856  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
-14:42:21.976  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
-14:42:22.027  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[.=' 10 ']
-14:42:22.095  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
-14:42:22.163  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
-14:42:22.216  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[.=' 20 ']
-14:42:22.271  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
-14:42:22.299  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
-14:42:22.379  INFO  manager.MyListener - New Before find by --> By.cssSelector: .car-img-container.ng-star-inserted
-14:42:23.586  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
-14:42:23.786  INFO  tests.BaseTest - Start test with name --->searchPeriodPast
-14:42:23.787  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+  <testcase name="searchPeriodPast" classname="tests.SearchTests" time="13.474">
+    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class='ng-star-inserted']&quot;}&#10;  (Session info: chrome=100.0.4896.75)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.2.2', revision: '683ccb65d6'&#10;System info: host: 'Elenas-MacBook-Air.local', ip: 'fe80:0:0:0:42a:9cab:327d:2422%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '11.0.15.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [76d9cf335b1e9205b7ddc61c6a187e6c, findElement {using=xpath, value=//div[@class='ng-star-inserted']}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/ml/_zfjgb895b7...}, goog:chromeOptions: {debuggerAddress: localhost:57347}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:57347/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 76d9cf335b1e9205b7ddc61c6a187e6c" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class='ng-star-inserted']&quot;}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'Elenas-MacBook-Air.local', ip: 'fe80:0:0:0:42a:9cab:327d:2422%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [76d9cf335b1e9205b7ddc61c6a187e6c, findElement {using=xpath, value=//div[@class='ng-star-inserted']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/ml/_zfjgb895b7...}, goog:chromeOptions: {debuggerAddress: localhost:57347}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:57347/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 76d9cf335b1e9205b7ddc61c6a187e6c
+	at app//manager.MyListener.onError(MyListener.java:41)
+	at app//org.openqa.selenium.support.events.EventFiringDecorator.lambda$onError$2(EventFiringDecorator.java:185)
+	at java.base@11.0.15.1/java.util.Arrays$ArrayList.forEach(Arrays.java:4390)
+	at app//org.openqa.selenium.support.events.EventFiringDecorator.onError(EventFiringDecorator.java:183)
+	at app//org.openqa.selenium.support.decorators.DefaultDecorated.onError(DefaultDecorated.java:58)
+	at app//org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$0(WebDriverDecorator.java:308)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$M4MMWjTz.findElement(Unknown Source)
+	at app//manager.HelperSearch.getMessage2(HelperSearch.java:211)
+	at app//tests.SearchTests.searchPeriodPast(SearchTests.java:19)
+	at java.base@11.0.15.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.15.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.15.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.15.1/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at app//org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at app//org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at app//org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at app//org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at app//org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base@11.0.15.1/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at app//org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at app//org.testng.TestRunner.run(TestRunner.java:601)
+	at app//org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at app//org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at app//org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at app//org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at app//org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at app//org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at app//org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at app//org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at app//org.testng.TestNG.runSuites(TestNG.java:1099)
+	at app//org.testng.TestNG.run(TestNG.java:1067)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base@11.0.15.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.15.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.15.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.15.1/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <system-out><![CDATA[22:24:18.495  INFO  tests.BaseTest - Start test with name --->searchPeriodPast
+22:24:18.498  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+22:24:18.864  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+22:24:19.964  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+22:24:20.180  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+22:24:20.251  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+22:24:21.734  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [type='submit']
+22:24:21.873  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[@class='ng-star-inserted']
+22:24:31.951  INFO  manager.MyListener - The name of method with error -->findElement
+22:24:31.969  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ng-star-inserted']"}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'Elenas-MacBook-Air.local', ip: 'fe80:0:0:0:42a:9cab:327d:2422%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [76d9cf335b1e9205b7ddc61c6a187e6c, findElement {using=xpath, value=//div[@class='ng-star-inserted']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/ml/_zfjgb895b7...}, goog:chromeOptions: {debuggerAddress: localhost:57347}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:57347/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 76d9cf335b1e9205b7ddc61c6a187e6c
+22:24:31.981  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

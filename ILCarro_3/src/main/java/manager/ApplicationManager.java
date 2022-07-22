@@ -22,7 +22,7 @@ public class ApplicationManager {
     HelperSearch search;
     public void init(){
 
-        wd=new ChromeDriver();
+     wd=new ChromeDriver();
 //        wd=new FirefoxDriver();
         WebDriverListener listener= new MyListener();
         wd= new EventFiringDecorator(listener).decorate(wd);

@@ -1,0 +1,21 @@
+21:57:43.357  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+21:57:49.558  INFO  manager.ApplicationManager - Current URL https://ilcarro-1578153671498.web.app/search
+21:57:49.633  INFO  tests.BaseTest - Start test with name --->searchPeriodPast
+21:57:49.636  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+21:57:49.969  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+21:57:51.091  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+21:57:51.221  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+21:57:51.276  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+21:57:52.740  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [type='submit']
+21:57:54.910  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[@class='ng-star-inserted']
+21:58:04.997  INFO  manager.MyListener - The name of method with error -->findElement
+21:58:05.021  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ng-star-inserted']"}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'Elenas-MacBook-Air.local', ip: 'fe80:0:0:0:42a:9cab:327d:2422%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7211707d34ae5ae5dbaf2bf9b83b86a4, findElement {using=xpath, value=//div[@class='ng-star-inserted']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/ml/_zfjgb895b7...}, goog:chromeOptions: {debuggerAddress: localhost:58921}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:58921/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7211707d34ae5ae5dbaf2bf9b83b86a4
+21:58:05.033  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo

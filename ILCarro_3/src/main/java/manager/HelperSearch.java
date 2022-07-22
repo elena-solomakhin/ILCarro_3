@@ -3,11 +3,14 @@ package manager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 
+import java.time.Duration;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-
 
 
 public class HelperSearch extends HelperBase {
@@ -18,22 +21,23 @@ public class HelperSearch extends HelperBase {
     public void searchCurrentMonth(String city, String dataFrom, String dataTo) {
         clearDates();
         typeCity(city);
-        selectPeriodCurrentMonth(dataFrom,dataTo);
+        selectPeriodCurrentMonth(dataFrom, dataTo);
     }
+
     private void selectPeriodCurrentMonth(String dataFrom, String dataTo) {
         //     "7/25/2022"      "7/30/2022"
         click(By.id("dates"));
 
-        String [] from = dataFrom.split("/"); // ["7"],["25"],["2022"  from[1] = "25"
+        String[] from = dataFrom.split("/"); // ["7"],["25"],["2022"  from[1] = "25"
 
-        String locator  = "//div[text()=' "+from[1]+" ']";
+        String locator = "//div[text()=' " + from[1] + " ']";
         click(By.xpath(locator));
 
 
         //     "7/30/2022"
-        String [] to = dataTo.split("/"); // ["7"],["30"],["2022"]     to[1]
+        String[] to = dataTo.split("/"); // ["7"],["30"],["2022"]     to[1]
 
-        String locator2 = String.format("//div[text()=' %s ']",to[1]);
+        String locator2 = String.format("//div[text()=' %s ']", to[1]);
 
         click(By.xpath(locator2));
 
@@ -126,66 +130,90 @@ public class HelperSearch extends HelperBase {
     public void searchAnyPeriodLocalDate2(String city, String dataFrom, String dataTo) {
         typeCity(city);
         LocalDate now = LocalDate.now();
-        LocalDate from= LocalDate.parse(dataFrom, DateTimeFormatter.ofPattern("M/d/yyyy"));
-        LocalDate to = LocalDate.parse(dataTo,DateTimeFormatter.ofPattern("M/d/yyyy"));
+        LocalDate from = LocalDate.parse(dataFrom, DateTimeFormatter.ofPattern("M/d/yyyy"));
+        LocalDate to = LocalDate.parse(dataTo, DateTimeFormatter.ofPattern("M/d/yyyy"));
         click(By.id("dates"));
 
-        int diffMonth = from.getYear()-now.getYear()
-                ==0 ? from.getMonthValue() -now.getMonthValue() : 12-now.getMonthValue()+ from.getMonthValue();
+        int diffMonth = from.getYear() - now.getYear()
+                == 0 ? from.getMonthValue() - now.getMonthValue() : 12 - now.getMonthValue() + from.getMonthValue();
 
         clickByNextMonth(diffMonth);
-        String locator = String.format("//div[text()=' %s ']",from.getDayOfMonth());
+        String locator = String.format("//div[text()=' %s ']", from.getDayOfMonth());
         click(By.xpath(locator));
 
-        diffMonth= to.getYear()-from.getYear()
-                ==0  ?to.getMonthValue()-from.getMonthValue(): 12-from.getMonthValue()+to.getMonthValue();
+        diffMonth = to.getYear() - from.getYear()
+                == 0 ? to.getMonthValue() - from.getMonthValue() : 12 - from.getMonthValue() + to.getMonthValue();
 
         clickByNextMonth(diffMonth);
-        locator=String.format("//div[text()=' %s ']",to.getDayOfMonth());
+        locator = String.format("//div[text()=' %s ']", to.getDayOfMonth());
         click(By.xpath(locator));
     }
 
 
-
-    public void searchAnyPeriodLocalDate(String city, String dataFrom, String dataTo){
-            //"8/10/2022","3/20/2023")
-            typeCity(city);
-            LocalDate now = LocalDate.now();
-            LocalDate from = LocalDate.parse(dataFrom, DateTimeFormatter.ofPattern("M/d/yyyy"));
-            LocalDate to = LocalDate.parse(dataTo, DateTimeFormatter.ofPattern("M/d/yyyy"));
-            click(By.id("dates"));
-            int diffYear;
-            int diffMonth;
-            diffYear = from.getYear() - now.getYear();
-            if (diffYear == 0) {
-                diffMonth = from.getMonthValue() - now.getMonthValue();//8-7, when 2022 and 2022 year
-            } else {
-                diffMonth = 12 - now.getMonthValue() + from.getMonthValue();
-            }
-            clickByNextMonth(diffMonth);
-            String locator = String.format("//div[.=' %s ']", from.getDayOfMonth());
-            click(By.xpath(locator));
-            /////********
-            diffYear = to.getYear() - from.getYear();
-            if (diffYear == 0) {
-                diffMonth = to.getMonthValue() - from.getMonthValue();//8-7, when 2022 and 2022 year
-            } else {
-                diffMonth = 12 - from.getMonthValue() + to.getMonthValue();
-            }
-            clickByNextMonth(diffMonth);
-            String locator1 = String.format("//div[.=' %s ']", from.getDayOfMonth());
-            click(By.xpath(locator1));
-
+    public void searchAnyPeriodLocalDate(String city, String dataFrom, String dataTo) {
+        //"8/10/2022","3/20/2023")
+        typeCity(city);
+        LocalDate now = LocalDate.now();
+        LocalDate from = LocalDate.parse(dataFrom, DateTimeFormatter.ofPattern("M/d/yyyy"));
+        LocalDate to = LocalDate.parse(dataTo, DateTimeFormatter.ofPattern("M/d/yyyy"));
+        click(By.id("dates"));
+        int diffYear;
+        int diffMonth;
+        diffYear = from.getYear() - now.getYear();
+        if (diffYear == 0) {
+            diffMonth = from.getMonthValue() - now.getMonthValue();//8-7, when 2022 and 2022 year
+        } else {
+            diffMonth = 12 - now.getMonthValue() + from.getMonthValue();
         }
+        clickByNextMonth(diffMonth);
+        String locator = String.format("//div[.=' %s ']", from.getDayOfMonth());
+        click(By.xpath(locator));
+        /////********
+        diffYear = to.getYear() - from.getYear();
+        if (diffYear == 0) {
+            diffMonth = to.getMonthValue() - from.getMonthValue();//8-7, when 2022 and 2022 year
+        } else {
+            diffMonth = 12 - from.getMonthValue() + to.getMonthValue();
+        }
+        clickByNextMonth(diffMonth);
+        String locator1 = String.format("//div[.=' %s ']", from.getDayOfMonth());
+        click(By.xpath(locator1));
+
+    }
 
     private void clearDates() {
-        wd.findElement(By.id("dates")).sendKeys(Keys.COMMAND+"a");
+        wd.findElement(By.id("dates")).sendKeys(Keys.COMMAND + "a");
         wd.findElement(By.id("dates")).sendKeys(Keys.DELETE);
 //        click(By.id("dates"));
 
     }
 
+    public void searchPeriodPast(String city, String dataFrom, String dataTo) {
+        typeCity(city);
+        clearDates();
+        WebElement element = wd.findElement(By.id("dates"));
+        element.sendKeys(dataFrom);
+        element.sendKeys(dataTo);
+        pause(1000);
+//        takeScreenShots("/Users/elenasolomakhina/Study/AutomatQA34/Progects/ILCarro_3/ILCarro_3/src/test/ScreenShots/screen-3.png");
+
     }
+
+    public boolean isEnable() {
+        boolean enabled = wd.findElement(By.cssSelector("[type='submit']")).isEnabled();
+        return !enabled;
+    }
+
+    public String getMessage2() {
+//        pause(2000);
+        //wait conteiner is appeared
+
+        String message = wd.findElement(By.xpath("//div[@class='ng-star-inserted']")).getText();
+        return message;
+
+
+    }
+}
 
 
 
