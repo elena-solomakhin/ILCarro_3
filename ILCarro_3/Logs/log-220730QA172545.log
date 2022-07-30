@@ -1,0 +1,22 @@
+17:25:55.424  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+17:25:57.693  INFO  manager.ApplicationManager - Current URL https://ilcarro-1578153671498.web.app/search
+17:25:57.774  INFO  tests.BaseTest - Start test with name --->searchCurrentMonth
+17:25:57.776  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+17:25:58.375  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+17:25:58.457  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+17:25:59.403  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+17:25:59.525  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+17:25:59.627  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+17:25:59.878  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 29 ']
+17:26:00.049  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 30 ']
+17:26:00.297  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+17:26:05.869  INFO  manager.MyListener - The name of method with error -->isDisplayed
+17:26:05.892  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'Elenas-MacBook-Air.local', ip: 'fe80:0:0:0:42f:2e40:b7d0:ab91%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3570b2ebca6472dcf821edd96f59a247, isElementDisplayed {id=a5dcb1e9-cf40-4510-b978-ec54d05ad7ee}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/ml/_zfjgb895b7...}, goog:chromeOptions: {debuggerAddress: localhost:62097}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62097/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (3570b2ebca6472dcf821edd96f59a247)] -> css selector: button[type='submit']]
+Session ID: 3570b2ebca6472dcf821edd96f59a247

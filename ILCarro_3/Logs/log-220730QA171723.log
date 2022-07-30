@@ -1,0 +1,219 @@
+17:17:27.793  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+17:17:30.347  INFO  manager.ApplicationManager - Current URL https://ilcarro-1578153671498.web.app/search
+17:17:30.410  INFO  tests.BaseTest - Start test with name --->addNewCarSuccess
+17:17:30.412  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+17:17:40.468  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [href='/login?url=%2Fsearch']
+17:17:40.832  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+17:17:41.161  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+17:17:41.469  INFO  manager.HelperBase - Login done success
+17:17:41.470  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+17:17:51.526  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+17:17:51.616  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+17:17:51.871  INFO  tests.BaseTest - user
+17:17:51.933  INFO  tests.BaseTest - Contact is --->Car(address=Haifa, Israel, make=BMW, model=M5, year=2021, engine=2.5, fuel=Petrol, gear=AT, wD=AWD, doors=5, seats=4, clasS=C, fuelConsumtion=6.5, carRegNumber=111-22-1327, price=65, distanceIncluded=800, features=type of features, about=very nice car)
+17:17:51.940  INFO  manager.MyListener - WebDriver start find element -->By.id: 1
+17:17:52.266  INFO  manager.MyListener - WebDriver start find element -->By.id: pickUpPlace
+17:17:52.623  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.pac-item
+17:17:54.322  INFO  manager.MyListener - WebDriver start find element -->By.id: make
+17:17:54.638  INFO  manager.MyListener - WebDriver start find element -->By.id: model
+17:17:54.923  INFO  manager.MyListener - WebDriver start find element -->By.id: year
+17:17:55.209  INFO  manager.MyListener - WebDriver start find element -->By.id: engine
+17:17:55.470  INFO  manager.MyListener - WebDriver start find element -->By.id: fuel
+17:17:55.752  INFO  manager.MyListener - WebDriver start find element -->By.id: gear
+17:17:56.060  INFO  manager.MyListener - WebDriver start find element -->By.id: wheelsDrive
+17:17:56.356  INFO  manager.MyListener - WebDriver start find element -->By.id: doors
+17:17:56.623  INFO  manager.MyListener - WebDriver start find element -->By.id: seats
+17:17:56.901  INFO  manager.MyListener - WebDriver start find element -->By.id: class
+17:17:57.162  INFO  manager.MyListener - WebDriver start find element -->By.id: fuelConsumption
+17:17:57.433  INFO  manager.MyListener - WebDriver start find element -->By.id: serialNumber
+17:17:57.709  INFO  manager.MyListener - WebDriver start find element -->By.id: price
+17:17:57.972  INFO  manager.MyListener - WebDriver start find element -->By.id: distance
+17:17:58.234  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: input[placeholder='Type feature']
+17:17:58.501  INFO  manager.MyListener - WebDriver start find element -->By.id: about
+17:17:58.784  INFO  manager.MyListener - WebDriver start find element -->By.id: photos
+17:17:58.823  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+17:17:59.996  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+17:18:02.256  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+17:18:02.310  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+17:18:02.343  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Search cars']
+17:18:02.598  INFO  tests.BaseTest - Start test with name --->loginSuccess
+17:18:02.599  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+17:18:02.615  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Logout ']
+17:18:02.884  INFO  tests.BaseTest - Test start with logout
+17:18:02.887  INFO  tests.BaseTest - Test start with email : noa@gmail.com & password: Nnoa12345$
+17:18:02.887  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [href='/login?url=%2Fsearch']
+17:18:03.158  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: #email
+17:18:04.024  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: #password
+17:18:04.295  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+17:18:04.330  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+17:18:06.561  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+17:18:06.629  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+17:18:06.653  INFO  tests.BaseTest - Test passed
+17:18:06.657  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+17:18:06.670  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+17:18:06.894  INFO  tests.BaseTest - Start test with name --->loginSuccess
+17:18:06.895  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+17:18:06.908  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Logout ']
+17:18:07.177  INFO  tests.BaseTest - Test start with logout
+17:18:07.180  INFO  tests.BaseTest - Test start with email : sonya@gmail.com & password: Ss12345$
+17:18:07.180  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [href='/login?url=%2Fsearch']
+17:18:07.452  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: #email
+17:18:08.294  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: #password
+17:18:08.555  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+17:18:08.587  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+17:18:10.819  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+17:18:10.886  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+17:18:10.906  INFO  tests.BaseTest - Test passed
+17:18:10.911  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+17:18:10.919  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+17:18:11.145  INFO  tests.BaseTest - Start test with name --->loginSuccess
+17:18:11.145  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+17:18:11.157  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Logout ']
+17:18:11.422  INFO  tests.BaseTest - Test start with logout
+17:18:11.424  INFO  tests.BaseTest - Test start with email : noa@gmail.com & password: Nnoa12345$
+17:18:11.424  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [href='/login?url=%2Fsearch']
+17:18:11.703  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: #email
+17:18:12.544  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: #password
+17:18:12.864  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+17:18:12.898  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+17:18:15.135  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+17:18:15.189  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+17:18:15.208  INFO  tests.BaseTest - Test passed
+17:18:15.217  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+17:18:15.227  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+17:18:15.451  INFO  tests.BaseTest - Start test with name --->loginSuccess
+17:18:15.452  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+17:18:15.460  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Logout ']
+17:18:15.725  INFO  tests.BaseTest - Test start with logout
+17:18:15.729  INFO  tests.BaseTest - Test start with email : sonya@gmail.com & password: Ss12345$
+17:18:15.730  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [href='/login?url=%2Fsearch']
+17:18:15.997  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: #email
+17:18:16.793  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: #password
+17:18:17.123  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+17:18:17.171  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+17:18:19.406  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+17:18:19.468  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+17:18:19.484  INFO  tests.BaseTest - Test passed
+17:18:19.492  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+17:18:19.501  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+17:18:19.735  INFO  tests.BaseTest - Start test with name --->loginSuccess2
+17:18:19.736  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+17:18:19.744  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Logout ']
+17:18:20.010  INFO  tests.BaseTest - Test start with logout
+17:18:20.012  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [href='/login?url=%2Fsearch']
+17:18:20.277  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: #email
+17:18:21.062  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: #password
+17:18:21.376  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+17:18:21.410  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+17:18:23.641  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+17:18:23.704  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+17:18:23.727  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+17:18:23.739  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+17:18:23.983  INFO  tests.BaseTest - Start test with name --->registrationSuccess
+17:18:23.984  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+17:18:23.994  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Logout ']
+17:18:24.258  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Sign up ']
+17:18:24.521  INFO  manager.MyListener - WebDriver start find element -->By.id: name
+17:18:24.807  INFO  manager.MyListener - WebDriver start find element -->By.id: lastName
+17:18:25.093  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+17:18:25.358  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+17:18:25.604  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: label[for='terms-of-use']
+17:18:25.881  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+17:18:35.935  INFO  manager.MyListener - The name of method with error -->findElement
+17:18:35.961  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchElementException: Unable to locate element: button[type='submit']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'Elenas-MacBook-Air.local', ip: 'fe80:0:0:0:42f:2e40:b7d0:ab91%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [758a8992-097b-6b45-87b2-58d11cdc459e, findElement {using=css selector, value=button[type='submit']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0, moz:accessibilityChecks: false, moz:buildID: 20210527174632, moz:debuggerAddress: localhost:54217, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 7503, moz:profile: /var/folders/ml/_zfjgb895b7..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: MAC, platformVersion: 21.5.0, se:cdp: ws://localhost:54217/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 758a8992-097b-6b45-87b2-58d11cdc459e
+17:18:35.973  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+17:18:46.010  INFO  tests.BaseTest - Start test with name --->registrationWrongPasswordFormatSize
+17:18:46.013  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+17:18:56.044  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Sign up ']
+17:18:56.418  INFO  manager.MyListener - WebDriver start find element -->By.id: name
+17:18:56.695  INFO  manager.MyListener - WebDriver start find element -->By.id: lastName
+17:18:56.957  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+17:18:57.240  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+17:18:57.480  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: label[for='terms-of-use']
+17:18:58.217  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.error div:last-child
+17:18:58.265  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.error div:first-child
+17:18:58.289  INFO  manager.MyListener - New Before find by --> By.cssSelector: button[disabled]
+17:18:58.311  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [type='submit']
+17:18:58.327  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+17:19:08.352  INFO  tests.BaseTest - Start test with name --->searchAnyPeriod
+17:19:08.355  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+17:19:08.716  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+17:19:08.764  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+17:19:09.528  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+17:19:10.266  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+17:19:10.357  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+17:19:10.662  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+17:19:10.926  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+17:19:11.203  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+17:19:11.464  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+17:19:11.716  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+17:19:11.973  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+17:19:12.229  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+17:19:12.500  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+17:19:12.765  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+17:19:13.043  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+17:19:13.318  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+17:19:13.582  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 10 ']
+17:19:13.853  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+17:19:14.116  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 15 ']
+17:19:14.373  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+17:19:14.424  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+17:19:14.707  INFO  manager.MyListener - New Before find by --> By.cssSelector: .cars-container.ng-star-inserted
+17:19:15.580  INFO  tests.BaseTest - Start test with name --->searchCurrentMonth
+17:19:15.582  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+17:19:15.858  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+17:19:15.894  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+17:19:16.681  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+17:19:17.427  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+17:19:17.550  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+17:19:17.839  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 29 ']
+17:19:18.071  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 30 ']
+17:19:18.339  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+17:19:23.453  INFO  tests.BaseTest - Start test with name --->searchCurrentYear
+17:19:23.458  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+17:19:23.500  INFO  manager.MyListener - The name of method with error -->click
+17:19:23.500  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementClickInterceptedException: Element <a class="logo" href="/"> is not clickable at point (236,34) because another element <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'Elenas-MacBook-Air.local', ip: 'fe80:0:0:0:42f:2e40:b7d0:ab91%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [758a8992-097b-6b45-87b2-58d11cdc459e, clickElement {id=7cbf457c-17db-ff4c-bb68-6e0a48016d4e}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0, moz:accessibilityChecks: false, moz:buildID: 20210527174632, moz:debuggerAddress: localhost:54217, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 7503, moz:profile: /var/folders/ml/_zfjgb895b7..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: MAC, platformVersion: 21.5.0, se:cdp: ws://localhost:54217/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on MAC (758a8992-097b-6b45-87b2-58d11cdc459e)] -> css selector: .logo]
+Session ID: 758a8992-097b-6b45-87b2-58d11cdc459e
+17:19:23.522  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+17:19:23.541  INFO  manager.MyListener - The name of method with error -->click
+17:19:23.543  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementClickInterceptedException: Element <a class="logo" href="/"> is not clickable at point (236,34) because another element <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'Elenas-MacBook-Air.local', ip: 'fe80:0:0:0:42f:2e40:b7d0:ab91%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [758a8992-097b-6b45-87b2-58d11cdc459e, clickElement {id=7cbf457c-17db-ff4c-bb68-6e0a48016d4e}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0, moz:accessibilityChecks: false, moz:buildID: 20210527174632, moz:debuggerAddress: localhost:54217, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 7503, moz:profile: /var/folders/ml/_zfjgb895b7..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: MAC, platformVersion: 21.5.0, se:cdp: ws://localhost:54217/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on MAC (758a8992-097b-6b45-87b2-58d11cdc459e)] -> css selector: .logo]
+Session ID: 758a8992-097b-6b45-87b2-58d11cdc459e
+17:19:23.549  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+17:19:23.565  INFO  manager.MyListener - The name of method with error -->click
+17:19:23.566  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementClickInterceptedException: Element <a class="logo" href="/"> is not clickable at point (236,34) because another element <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'Elenas-MacBook-Air.local', ip: 'fe80:0:0:0:42f:2e40:b7d0:ab91%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [758a8992-097b-6b45-87b2-58d11cdc459e, clickElement {id=7cbf457c-17db-ff4c-bb68-6e0a48016d4e}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0, moz:accessibilityChecks: false, moz:buildID: 20210527174632, moz:debuggerAddress: localhost:54217, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 7503, moz:profile: /var/folders/ml/_zfjgb895b7..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: MAC, platformVersion: 21.5.0, se:cdp: ws://localhost:54217/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on MAC (758a8992-097b-6b45-87b2-58d11cdc459e)] -> css selector: .logo]
+Session ID: 758a8992-097b-6b45-87b2-58d11cdc459e
+17:19:23.569  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+17:19:23.590  INFO  manager.MyListener - The name of method with error -->click
+17:19:23.591  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementClickInterceptedException: Element <a class="logo" href="/"> is not clickable at point (236,34) because another element <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'Elenas-MacBook-Air.local', ip: 'fe80:0:0:0:42f:2e40:b7d0:ab91%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [758a8992-097b-6b45-87b2-58d11cdc459e, clickElement {id=7cbf457c-17db-ff4c-bb68-6e0a48016d4e}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0, moz:accessibilityChecks: false, moz:buildID: 20210527174632, moz:debuggerAddress: localhost:54217, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 7503, moz:profile: /var/folders/ml/_zfjgb895b7..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: MAC, platformVersion: 21.5.0, se:cdp: ws://localhost:54217/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on MAC (758a8992-097b-6b45-87b2-58d11cdc459e)] -> css selector: .logo]
+Session ID: 758a8992-097b-6b45-87b2-58d11cdc459e

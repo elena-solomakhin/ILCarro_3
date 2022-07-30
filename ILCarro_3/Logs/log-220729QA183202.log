@@ -1,0 +1,22 @@
+18:32:11.297  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+18:32:15.375  INFO  manager.ApplicationManager - Current URL https://ilcarro-1578153671498.web.app/search
+18:32:15.455  INFO  tests.BaseTest - Start test with name --->searchCurrentMonth
+18:32:15.458  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+18:32:15.815  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+18:32:16.986  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+18:32:17.114  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+18:32:17.176  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+18:32:17.817  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 27 ']
+18:32:18.306  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 28 ']
+18:32:18.495  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+18:32:23.014  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+18:32:24.194  INFO  manager.MyListener - The name of method with error -->click
+18:32:24.197  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-xna-c25="" href="/" class="logo">...</a> is not clickable at point (236, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'Elenas-MacBook-Air.local', ip: 'fe80:0:0:0:42f:2e40:b7d0:ab91%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5147d03fa5898a11a4f7d06ae858003e, clickElement {id=9e62b215-de00-43d7-bee0-7bfda5767974}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/ml/_zfjgb895b7...}, goog:chromeOptions: {debuggerAddress: localhost:63349}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:63349/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (5147d03fa5898a11a4f7d06ae858003e)] -> css selector: .logo]
+Session ID: 5147d03fa5898a11a4f7d06ae858003e

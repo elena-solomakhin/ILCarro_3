@@ -1,5 +1,6 @@
 package tests;
 
+import manager.MyDataProvider;
 import models.Car;
 import models.User;
 import org.testng.Assert;
@@ -45,6 +46,16 @@ logger.info("user");
         app.car().openCarForm();
         app.car().fillCarForm(car);
       app.car().attachPhoto("/Users/elenasolomakhina/Study/AutomatQA34/Progects/ILCarro_3/ILCarro_3/auto1.jpeg");
+        app.car().submit();
+        Assert.assertEquals(app.car().getMessage(),"Car added");
+
+    }
+    @Test(dataProvider = "validDataCar",dataProviderClass = MyDataProvider.class)
+    public void addNewCarSuccess2(Car car){
+//        logger.info("Contact is --->"+ car.toString());
+        app.car().openCarForm();
+        app.car().fillCarForm(car);
+        app.car().attachPhoto("/Users/elenasolomakhina/Study/AutomatQA34/Progects/ILCarro_3/ILCarro_3/auto1.jpeg");
         app.car().submit();
         Assert.assertEquals(app.car().getMessage(),"Car added");
 

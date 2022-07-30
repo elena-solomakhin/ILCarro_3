@@ -1,0 +1,25 @@
+18:30:57.289  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+18:31:01.551  INFO  manager.ApplicationManager - Current URL https://ilcarro-1578153671498.web.app/search
+18:31:01.627  INFO  tests.BaseTest - Start test with name --->searchPeriodPast
+18:31:01.637  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+18:31:01.981  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+18:31:03.071  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+18:31:04.952  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [type='submit']
+18:31:05.031  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[@class='ng-star-inserted']
+18:31:14.260  INFO  manager.MyListener - The name of method with error -->findElement
+18:31:14.279  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //div[@class='ng-star-inserted']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'Elenas-MacBook-Air.local', ip: 'fe80:0:0:0:42f:2e40:b7d0:ab91%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '11.0.15.1'
+Driver info: driver.version: unknown
+18:31:14.319  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+18:31:14.364  INFO  manager.MyListener - The name of method with error -->findElement
+18:31:14.371  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'Elenas-MacBook-Air.local', ip: 'fe80:0:0:0:42f:2e40:b7d0:ab91%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [725fb1ea2f398c83885218e93d51007f, findElement {using=css selector, value=.logo}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/ml/_zfjgb895b7...}, goog:chromeOptions: {debuggerAddress: localhost:63276}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:63276/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 725fb1ea2f398c83885218e93d51007f

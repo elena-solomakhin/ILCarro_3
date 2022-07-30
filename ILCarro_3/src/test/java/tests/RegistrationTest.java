@@ -1,5 +1,6 @@
 package tests;
 
+import manager.MyDataProvider;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -30,7 +31,17 @@ public class RegistrationTest extends BaseTest {
         app.getHelperUser().clickOk();
 
     }
+    @Test (dataProvider = "dataRegistration",dataProviderClass = MyDataProvider.class,enabled = false)
 
+    public void registrationSuccess2(User user){
+        app.getHelperUser().openRegistrationForm();
+        app.getHelperUser().fillRegistrationForm(user);
+        app.getHelperUser().checkPolicyXY();
+        app.getHelperUser().submit();
+        Assert.assertEquals(app.getHelperUser().getMessage(),"Registered");
+
+
+    }
     @Test
     public void registrationWrongPasswordFormatSize(){
        User user= new User()

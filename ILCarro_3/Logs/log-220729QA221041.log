@@ -1,0 +1,46 @@
+22:10:51.493  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+22:10:54.106  INFO  manager.ApplicationManager - Current URL https://ilcarro-1578153671498.web.app/search
+22:10:54.184  INFO  tests.BaseTest - Start test with name --->registrationSuccess2
+22:10:54.187  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+22:11:04.268  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Sign up ']
+22:11:04.514  INFO  manager.MyListener - WebDriver start find element -->By.id: name
+22:11:04.848  INFO  manager.MyListener - WebDriver start find element -->By.id: lastName
+22:11:04.975  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+22:11:05.132  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+22:11:05.248  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: label[for='terms-of-use']
+22:11:05.697  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+22:11:11.292  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+22:11:21.365  INFO  tests.BaseTest - Start test with name --->registrationSuccess2
+22:11:21.370  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+22:11:31.431  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Sign up ']
+22:11:31.517  INFO  manager.MyListener - WebDriver start find element -->By.id: name
+22:11:31.767  INFO  manager.MyListener - WebDriver start find element -->By.id: lastName
+22:11:32.010  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+22:11:32.203  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+22:11:32.291  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: label[for='terms-of-use']
+22:11:32.669  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+22:11:38.178  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+22:11:48.221  INFO  tests.BaseTest - Start test with name --->registrationSuccess2
+22:11:48.226  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+22:11:53.186  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Sign up ']
+22:11:53.198  INFO  manager.MyListener - The name of method with error -->findElement
+22:11:53.216  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'Elenas-MacBook-Air.local', ip: 'fe80:0:0:0:42f:2e40:b7d0:ab91%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ee23b62fc0ad776da7433159d33aa195, findElement {using=xpath, value=//a[text()=' Sign up ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/ml/_zfjgb895b7...}, goog:chromeOptions: {debuggerAddress: localhost:64980}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:64980/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ee23b62fc0ad776da7433159d33aa195
+22:11:53.253  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+22:11:53.278  INFO  manager.MyListener - The name of method with error -->findElements
+22:11:53.287  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'Elenas-MacBook-Air.local', ip: 'fe80:0:0:0:42f:2e40:b7d0:ab91%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ee23b62fc0ad776da7433159d33aa195, findElements {using=xpath, value=//button[text()='Ok']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/ml/_zfjgb895b7...}, goog:chromeOptions: {debuggerAddress: localhost:64980}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:64980/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ee23b62fc0ad776da7433159d33aa195

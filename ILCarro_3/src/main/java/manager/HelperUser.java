@@ -89,12 +89,7 @@ public class HelperUser extends HelperBase {
             .textToBePresentInElement(wd.findElement(By.cssSelector("div.error div:first-child")), "Password must contain minimum 8 symbols"));
     }
 
-    public boolean isYallaButtonNotActive() {
-        boolean disabled = isElementPresent(By.cssSelector("button[disabled]"));
 
-        boolean enabled = wd.findElement(By.cssSelector("[type='submit']")).isEnabled();
-        return disabled&&!enabled;
-    }
     public void login(User user){
         openLoginForm();
         fillLoginForm(user);

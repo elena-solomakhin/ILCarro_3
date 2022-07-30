@@ -1,0 +1,13 @@
+12:43:11.856  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+12:43:14.800  INFO  manager.ApplicationManager - Current URL https://ilcarro-1578153671498.web.app/search
+12:43:14.886  INFO  tests.BaseTest - Start test with name --->loginSuccess2
+12:43:14.890  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+12:43:24.931  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [href='/login?url=%2Fsearch']
+12:43:25.288  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: #email
+12:43:26.187  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: #password
+12:43:26.506  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+12:43:26.582  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+12:43:28.845  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+12:43:28.925  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+12:43:28.978  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+12:43:29.001  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']

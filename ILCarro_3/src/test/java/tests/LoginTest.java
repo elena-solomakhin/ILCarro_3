@@ -1,41 +1,65 @@
+
+
 package tests;
 
+import manager.MyDataProvider;
+import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class LoginTest extends BaseTest{
-@BeforeMethod
-public void preCondition(){
-    if (app.getHelperUser().isLogged()){
-        app.getHelperUser().logout();
-        logger.info("test start with logout");
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class LoginTest extends BaseTest {
+
+    @BeforeMethod(alwaysRun = true)
+    public void preCondition() {
+
+        if (app.getHelperUser().isLogged()) {
+            app.getHelperUser().logout();
+            logger.info("Test start with logout");
+        }
     }
-}
-    @Test
-    public void LoginASuccess()  {
-logger.info("Test start with email :'noam@gmail.com'and password 'QQqq1234$'");
+
+    @Test(dataProvider = "dataLogin",dataProviderClass = MyDataProvider.class)
+    public void loginSuccess(String email,String password) {
+
+        logger.info("Test start with email : "+email+" & password: "+password);
+
         app.getHelperUser().openLoginForm();
-        app.getHelperUser().fillLoginForm("noam@gmail.com","QQqq1234$");
+        app.getHelperUser().fillLoginForm(email, password);
         app.getHelperUser().submit();
-        Assert.assertEquals(app.getHelperUser().getMessage(),"Logged in");
+        Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in");
         logger.info("Test passed");
+
     }
 
-//    QQqq1234$
-
-    @Test
-    public void loginNegativeTestsWrongEmail() {
-
+    @Test(groups = {"web"})
+    public void loginSuccess2() {
         app.getHelperUser().openLoginForm();
-        app.getHelperUser().fillLoginForm("noagmail.com", "45$");
+        app.getHelperUser().fillLoginForm("noa@gmail.com", "Nnoa12345$");
         app.getHelperUser().submit();
-        // 6.Assert ( is login unsuccessful?)   logout present? NOT
+        Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in");
 
     }
-@AfterMethod
-public void postCondition() {
-app.getHelperUser().clickOk();
-}
+    @Test (dataProvider = "loginCSV",dataProviderClass = MyDataProvider.class)
+    public void loginSuccessDP(User user) {
+        app.getHelperUser().openLoginForm();
+        app.getHelperUser().fillLoginForm(user);
+        app.getHelperUser().submit();
+        Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in");
+
+    }
+
+    @AfterMethod (alwaysRun = true)
+    public void postCondition() {
+        app.getHelperUser().clickOk();
+    }
+
+
+
 }

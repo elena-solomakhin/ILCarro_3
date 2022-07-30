@@ -1,0 +1,43 @@
+18:52:13.442  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+18:52:15.640  INFO  manager.ApplicationManager - Current URL https://ilcarro-1578153671498.web.app/search
+18:52:15.726  INFO  tests.BaseTest - Start test with name --->addNewCarSuccess2
+18:52:15.728  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+18:52:25.839  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [href='/login?url=%2Fsearch']
+18:52:26.073  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+18:52:26.385  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+18:52:26.561  INFO  manager.HelperBase - Login done success
+18:52:26.561  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+18:52:36.585  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+18:52:36.682  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+18:52:36.797  INFO  tests.BaseTest - user
+18:52:36.837  INFO  manager.MyListener - WebDriver start find element -->By.id: 1
+18:52:38.468  INFO  manager.MyListener - WebDriver start find element -->By.id: pickUpPlace
+18:52:39.018  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.pac-item
+18:52:40.056  INFO  manager.MyListener - WebDriver start find element -->By.id: make
+18:52:40.195  INFO  manager.MyListener - WebDriver start find element -->By.id: model
+18:52:40.311  INFO  manager.MyListener - WebDriver start find element -->By.id: year
+18:52:40.464  INFO  manager.MyListener - WebDriver start find element -->By.id: engine
+18:52:40.633  INFO  manager.MyListener - WebDriver start find element -->By.id: fuel
+18:52:40.934  INFO  manager.MyListener - WebDriver start find element -->By.id: gear
+18:52:41.144  INFO  manager.MyListener - WebDriver start find element -->By.id: wheelsDrive
+18:52:41.245  INFO  manager.MyListener - WebDriver start find element -->By.id: doors
+18:52:41.345  INFO  manager.MyListener - WebDriver start find element -->By.id: seats
+18:52:41.454  INFO  manager.MyListener - WebDriver start find element -->By.id: class
+18:52:41.556  INFO  manager.MyListener - WebDriver start find element -->By.id: fuelConsumption
+18:52:41.755  INFO  manager.MyListener - WebDriver start find element -->By.id: serialNumber
+18:52:41.862  INFO  manager.MyListener - WebDriver start find element -->By.id: price
+18:52:41.956  INFO  manager.MyListener - WebDriver start find element -->By.id: distance
+18:52:42.146  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: input[placeholder='Type feature']
+18:52:42.242  INFO  manager.MyListener - WebDriver start find element -->By.id: about
+18:52:42.361  INFO  manager.MyListener - WebDriver start find element -->By.id: photos
+18:52:42.596  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+18:52:43.745  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+18:52:45.829  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+18:52:45.884  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+18:52:45.938  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Search cars']
+18:52:52.268  INFO  manager.MyListener - The name of method with error -->findElement
+18:52:52.289  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //button[text()='Search cars']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'Elenas-MacBook-Air.local', ip: 'fe80:0:0:0:42f:2e40:b7d0:ab91%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '11.0.15.1'
+Driver info: driver.version: unknown

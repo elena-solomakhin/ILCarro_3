@@ -1,0 +1,24 @@
+18:55:02.399  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+18:55:04.772  INFO  manager.ApplicationManager - Current URL https://ilcarro-1578153671498.web.app/search
+18:55:04.862  INFO  tests.BaseTest - Start test with name --->searchCurrentMonth
+18:55:04.866  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+18:55:05.084  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+18:55:05.165  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+18:55:05.454  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+18:55:06.553  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+18:55:06.734  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+18:55:06.804  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+18:55:07.555  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 27 ']
+18:55:07.741  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 28 ']
+18:55:07.994  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+18:55:12.550  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+18:55:13.663  INFO  manager.MyListener - The name of method with error -->click
+18:55:13.664  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-btr-c25="" href="/" class="logo">...</a> is not clickable at point (236, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'Elenas-MacBook-Air.local', ip: 'fe80:0:0:0:42f:2e40:b7d0:ab91%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bfb55298ca4e064fae03fa4e32ff10a5, clickElement {id=fe1eb176-827e-41f5-a53b-90d35b9cd770}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/ml/_zfjgb895b7...}, goog:chromeOptions: {debuggerAddress: localhost:63552}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:63552/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (bfb55298ca4e064fae03fa4e32ff10a5)] -> css selector: .logo]
+Session ID: bfb55298ca4e064fae03fa4e32ff10a5

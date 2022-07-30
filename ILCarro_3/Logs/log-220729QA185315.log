@@ -1,0 +1,44 @@
+18:53:22.270  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+18:53:26.605  INFO  manager.ApplicationManager - Current URL https://ilcarro-1578153671498.web.app/search
+18:53:26.692  INFO  tests.BaseTest - Start test with name --->searchAnyPeriod
+18:53:26.694  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+18:53:27.041  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+18:53:28.163  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+18:53:28.371  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+18:53:28.459  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+18:53:28.721  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+18:53:28.884  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+18:53:28.983  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+18:53:29.092  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+18:53:29.333  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+18:53:29.666  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+18:53:30.238  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 10 ']
+18:53:31.156  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+18:53:31.482  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+18:53:31.567  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+18:53:31.612  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+18:53:31.656  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 25 ']
+18:53:31.759  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+18:53:31.840  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+18:53:32.449  INFO  manager.MyListener - New Before find by --> By.cssSelector: .car-img-container.ng-star-inserted
+18:53:33.538  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+18:53:33.979  INFO  tests.BaseTest - Start test with name --->searchCurrentMonth
+18:53:33.980  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+18:53:34.168  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+18:53:34.999  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+18:53:35.078  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+18:53:35.116  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+18:53:35.203  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 27 ']
+18:53:35.291  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 28 ']
+18:53:35.349  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+18:53:39.745  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+18:53:40.838  INFO  manager.MyListener - The name of method with error -->click
+18:53:40.840  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-nis-c25="" href="/" class="logo">...</a> is not clickable at point (236, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'Elenas-MacBook-Air.local', ip: 'fe80:0:0:0:42f:2e40:b7d0:ab91%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ea10dd0618e1776a0a15313bfce1b5c, clickElement {id=b9373599-2e0c-4f54-9f20-96e6ae879344}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/ml/_zfjgb895b7...}, goog:chromeOptions: {debuggerAddress: localhost:63507}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:63507/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (0ea10dd0618e1776a0a15313bfce1b5c)] -> css selector: .logo]
+Session ID: 0ea10dd0618e1776a0a15313bfce1b5c

@@ -1,0 +1,71 @@
+19:10:52.525  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+19:10:57.217  INFO  manager.ApplicationManager - Current URL https://ilcarro-1578153671498.web.app/search
+19:10:57.290  INFO  tests.BaseTest - Start test with name --->searchAnyPeriod
+19:10:57.291  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+19:10:57.863  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+19:10:57.945  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+19:10:58.912  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+19:10:59.033  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+19:10:59.143  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+19:10:59.397  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+19:10:59.575  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+19:10:59.641  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+19:10:59.765  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+19:10:59.933  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+19:11:00.166  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+19:11:00.647  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+19:11:01.525  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+19:11:01.894  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+19:11:02.175  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+19:11:02.241  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+19:11:02.369  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 10 ']
+19:11:02.753  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[@aria-label='Next month']
+19:11:03.047  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 15 ']
+19:11:03.160  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+19:11:03.212  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+19:11:03.428  INFO  manager.MyListener - New Before find by --> By.cssSelector: .cars-container.ng-star-inserted
+19:11:04.917  INFO  tests.BaseTest - Start test with name --->searchCurrentMonth
+19:11:04.919  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+19:11:05.178  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+19:11:05.213  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+19:11:05.956  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+19:11:06.038  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+19:11:06.105  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+19:11:06.181  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 28 ']
+19:11:06.250  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //div[text()=' 27 ']
+19:11:06.296  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+19:11:10.794  INFO  tests.BaseTest - Start test with name --->searchCurrentYear
+19:11:10.796  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+19:11:11.934  INFO  manager.MyListener - The name of method with error -->click
+19:11:11.935  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-dpt-c25="" href="/" class="logo">...</a> is not clickable at point (236, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'Elenas-MacBook-Air.local', ip: 'fe80:0:0:0:42f:2e40:b7d0:ab91%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c5875cbd47e0e1947513fd5dad870b65, clickElement {id=32dadf18-0726-4768-a5ad-fff6421d6f1e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/ml/_zfjgb895b7...}, goog:chromeOptions: {debuggerAddress: localhost:63771}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:63771/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (c5875cbd47e0e1947513fd5dad870b65)] -> css selector: .logo]
+Session ID: c5875cbd47e0e1947513fd5dad870b65
+19:11:11.949  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+19:11:12.680  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+19:11:12.685  INFO  manager.MyListener - The name of method with error -->findElement
+19:11:12.686  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'Elenas-MacBook-Air.local', ip: 'fe80:0:0:0:42f:2e40:b7d0:ab91%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c5875cbd47e0e1947513fd5dad870b65, findElement {using=css selector, value=.logo}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/ml/_zfjgb895b7...}, goog:chromeOptions: {debuggerAddress: localhost:63771}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:63771/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c5875cbd47e0e1947513fd5dad870b65
+19:11:12.705  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+19:11:12.719  INFO  manager.MyListener - The name of method with error -->findElement
+19:11:12.735  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'Elenas-MacBook-Air.local', ip: 'fe80:0:0:0:42f:2e40:b7d0:ab91%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c5875cbd47e0e1947513fd5dad870b65, findElement {using=css selector, value=.logo}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/ml/_zfjgb895b7...}, goog:chromeOptions: {debuggerAddress: localhost:63771}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:63771/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c5875cbd47e0e1947513fd5dad870b65
