@@ -28,7 +28,7 @@ public class HelperUser extends HelperBase {
         type(By.cssSelector("#email"),email);
         takeScreenShots("/Users/elenasolomakhina/Study/AutomatQA34/Progects/ILCarro_3/src/test/ScreenShots/screen-1.png");
         type(By.cssSelector("#password"),password);
-
+//jenkins
     }
     public void fillLoginForm(User user){
         type(By.id("email"),user.getEmail());
